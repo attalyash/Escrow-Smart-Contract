@@ -54,7 +54,7 @@ contract Escrow {
     
     
     //Buyer releases balance deposit to seller
-    /*function releaseBalanceToSeller() internal 
+    function releaseBalanceToSeller() internal 
     {
         if(msg.sender == buyer)
         {
@@ -65,7 +65,7 @@ contract Escrow {
         else
         revert();
     }
-    */
+    
     
     //Buyer returns the item
     function returnItemToSeller(string memory _status) external 
